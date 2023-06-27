@@ -121,6 +121,13 @@ aside {
    margin-bottom: 50px; 
 }
 
+.sectionContent3 {
+  max-width: 400px; /* Passe die Breite entsprechend deinen Anforderungen an */
+  margin: 0 auto; /* Zentriere das Formular horizontal */
+  padding: 20px; /* Füge einen Innenabstand hinzu */
+  box-sizing: border-box; /* Berücksichtige den Padding-Wert in der Breite */
+}
+
 .center {
   display: flex;
   flex-direction: column;
@@ -264,6 +271,29 @@ footer {
       float: none;
     }
     
+    .sectionContent3 {
+      padding: 10px;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+  }
+
     .center {
       height: auto;
       border: 2px solid black;
